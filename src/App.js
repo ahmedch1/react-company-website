@@ -1,16 +1,20 @@
 import React from 'react';
 import PageWrapper from './components/PageWrapper';
 import Home from './components/Pages/Home';
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 
 function App() {
     return (
-        <div>
+        <Router>
         <PageWrapper>
-            <Home/>
+
+                <Route
+                    path="/"
+                    component={Home}/>
+
 
         </PageWrapper>
-            <h1>Hello World</h1>
-        </div>
+        </Router>
     );
 }
 
