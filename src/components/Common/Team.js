@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import TeamMember from './TeamMember';
-import team1 from '../assets/img/team/1.jpg';
-import team2 from '../assets/img/team/2.jpg';
-import team3 from '../assets/img/team/3.jpg';
+import team1 from '../assets/img/team/ahmed.png';
+import team2 from '../assets/img/team/amine.jpg';
+import team3 from '../assets/img/team/aziz.jpeg';
 
 const members = [{
     name: 'Ahmed Chouihi', role: 'CEO & FOUNDER', image: team1
@@ -29,7 +29,7 @@ class Team extends Component {
                     <div className="row">
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
+                                <img className="mx-auto rounded-circle" src="img/team/ahmed.png" alt=""/>
                                 <h4>Ahmed Chouihi</h4>
                                 <p className="text-muted">CEO & FOUNDER</p>
                                 <ul className="list-inline social-buttons">
@@ -53,7 +53,7 @@ class Team extends Component {
                         </div>
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
+                                <img className="mx-auto rounded-circle" src="img/team/amine.jpg" alt=""/>
                                 <h4>Amine Mokni</h4>
                                 <p className="text-muted">Js Trainer</p>
                                 <ul className="list-inline social-buttons">
@@ -77,7 +77,7 @@ class Team extends Component {
                         </div>
                         <div className="col-sm-4">
                             <div className="team-member">
-                                <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
+                                <img className="mx-auto rounded-circle" src="img/team/aziz.jpeg" alt=""/>
                                 <h4>Aziz Sridi</h4>
                                 <p className="text-muted">Intern</p>
                                 <ul className="list-inline social-buttons">
