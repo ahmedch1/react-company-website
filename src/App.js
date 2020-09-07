@@ -6,6 +6,9 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import Home from './components/Pages/Home'
 import About from './components/Pages/About';
 import Contact from "./components/Pages/Contact";
+import Team from "./components/Common/Team";
+import Portfolio from "./components/Common/Portfolio";
+import Services from "./components/Common/Services";
 
 function App() {
     return (
@@ -17,10 +20,23 @@ function App() {
                     path="/"
                     component={Home}/>
                 <Route
+                    path="/services"
+                    component={Services}
+                />
+                    <Route
+                    path="/portfolio"
+                    component={Portfolio}
+                />
+                    <Route
                 path="/about"
                 component={About}
                 />
 
+                <Route
+                path="/team"
+                component={Team}>
+
+                </Route>
                 <Route
                 path="/contact"
                 component={Contact}>
