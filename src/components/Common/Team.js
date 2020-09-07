@@ -5,12 +5,12 @@ import team2 from '../assets/img/team/2.jpg';
 import team3 from '../assets/img/team/3.jpg';
 
 const members = [{
-    name: 'Kay Garland', role: 'Lead Designer', image: team1
+    name: 'Ahmed Chouihi', role: 'CEO & FOUNDER', image: team1
 }, {
-    name: 'Larry Parker', role: 'Lead Marketer', image: team2
+    name: 'Amine Mokni', role: 'Js Trainer', image: team2
 },
     {
-        name: 'Diana Pertersen', role: 'Lead Developer', image: team3
+        name: 'Aziz Sridi', role: 'Intern', image: team3
     }
 ]
 
@@ -30,8 +30,8 @@ class Team extends Component {
                         <div className="col-sm-4">
                             <div className="team-member">
                                 <img className="mx-auto rounded-circle" src="img/team/1.jpg" alt=""/>
-                                <h4>Kay Garland</h4>
-                                <p className="text-muted">Lead Designer</p>
+                                <h4>Ahmed Chouihi</h4>
+                                <p className="text-muted">CEO & FOUNDER</p>
                                 <ul className="list-inline social-buttons">
                                     <li className="list-inline-item">
                                         <a href="#">
@@ -54,8 +54,8 @@ class Team extends Component {
                         <div className="col-sm-4">
                             <div className="team-member">
                                 <img className="mx-auto rounded-circle" src="img/team/2.jpg" alt=""/>
-                                <h4>Larry Parker</h4>
-                                <p className="text-muted">Lead Marketer</p>
+                                <h4>Amine Mokni</h4>
+                                <p className="text-muted">Js Trainer</p>
                                 <ul className="list-inline social-buttons">
                                     <li className="list-inline-item">
                                         <a href="#">
@@ -78,8 +78,8 @@ class Team extends Component {
                         <div className="col-sm-4">
                             <div className="team-member">
                                 <img className="mx-auto rounded-circle" src="img/team/3.jpg" alt=""/>
-                                <h4>Diana Pertersen</h4>
-                                <p className="text-muted">Lead Developer</p>
+                                <h4>Aziz Sridi</h4>
+                                <p className="text-muted">Intern</p>
                                 <ul className="list-inline social-buttons">
                                     <li className="list-inline-item">
                                         <a href="#">
